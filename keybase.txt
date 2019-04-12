@@ -1,0 +1,58 @@
+==================================================================
+https://keybase.io/bgavin         
+--------------------------------------------------------------------
+    
+I hereby claim:
+                                   
+  * I am an admin of https://bgav.in
+  * I am bgavin (https://keybase.io/bgavin) on keybase.
+  * I have a public key ASAzVotPWrTux92cdLLsndyYfpkLiCaj9vofPyQzC1yAFQo
+                         
+To do so, I am signing this object: 
+                
+{                                                      
+  "body": {                                                 
+    "key": {                        
+      "eldest_kid": "012033568b4f5ab4eec7dd9c74b2ec9ddc987e990b8826a3f6fa1f3f24330b5c80150a",
+      "host": "keybase.io",      
+      "kid": "012033568b4f5ab4eec7dd9c74b2ec9ddc987e990b8826a3f6fa1f3f24330b5c80150a",
+      "uid": "e25c7faa2595951da5ba669b97634819",       
+      "username": "bgavin"                                                                                     
+    },                  
+    "merkle_root": {    
+      "ctime": 1555093161,                                  
+      "hash": "6be6e71d6707978329d6ee60e2925b8749a4c9d47bcb7cc1797406b50bd6268c50308a536362a384dfca4dcc944f4785621925a0424f110861687f37af3d0c43",
+      "hash_meta": "3f5eb1789aed485f470947e3d4178d2c0c107eb3fbcc0bf3f1a5d304f8bdef7f",
+      "seqno": 5154411           
+    },          
+    "service": {                     
+      "entropy": "MXnXCUHorYgrxT6Q0Cm4Ze3E", 
+      "hostname": "bgav.in",     
+      "protocol": "https:"
+    },                                                            
+    "type": "web_service_binding",
+    "version": 2                                                    
+  },
+  "client": {  
+    "name": "keybase.io go client",
+    "version": "3.1.2"              
+  },                                                   
+  "ctime": 1555093164,                                                 
+  "expire_in": 504576000,
+  "prev": "38da7e97fffffe61aa73744abe4af657518971b73af69f11351d4603a8c3b2b6",
+  "seqno": 23,
+  "tag": "signature"
+}          
+            
+which yields the signature:                                                                  
+                           
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgM1aLT1q07sfdnHSy7J3cmH6ZC4gmo/b6Hz8kMwtcgBUKp3BheWxvYWTESpcCF8QgONp+l////mGqc3RKvkr2V1GJcbc69p8RNR1GA6jDsrbEIEmpthrMPMR9SVK+BJwlDp5o/K/t734yQq6Wz0eslM1AAgHCo3NpZ8RAx
+yoFBw+IbefgWyPf/ALuX3DC1p3TkmC+xPGvLsYnsYZzWHMq39rUI965lJh8zZAKS+fHGxUCJYjrTarb2YUHCqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIGTPjA6z7NID92jfNnbgDhTKmH//QDyi9VczkkOAOGjKo3RhZ80CAqd2ZXJzaW9uAQ==
+                          
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+                          
+View my publicly-auditable identity here: https://keybase.io/bgavin                                                                              
+                                                                                      
+==================================================================
+
