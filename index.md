@@ -3,13 +3,10 @@
 layout: default # Uses the default layout from the Midnight theme
 ---
 
-<style>
-  #header {
-    display: none !important;
-  }
-</style>
 
 [Email](mailto:bcangan@ethz.ch) | [Website](https://bgav.in) | [LinkedIn](https://www.linkedin.com/in/cangan/) | [Google Scholar](https://scholar.google.com/citations?user=CJVIl-0AAAAJ&hl=en) | [Twitter/X](https://x.com/gavincangan) | [GitHub](https://github.com/gavincangan) | [Anonymous feedback](https://www.admonymous.co/gavin)
+
+![Gavin Cangan](https://github.com/gavincangan.png){: width="200px" style="border-radius:50%;"}
 
 ---
 
@@ -29,22 +26,59 @@ Here are some videos showcasing projects I've been involved in:
 
 ### ETH Zürich - Soft Robotics Lab Research
 
-* **Dexterous Hand Policy Learning:** ([Video](https://youtu.be/YahsMhqNU8o)) This video ("Getting the Ball Rolling: Learning a Dexterous Policy for a Biomimetic Tendon-Driven Hand") details training a dexterous robotic hand using parallelized simulation and reinforcement learning [0:29]. It covers the hand's design [1:09], training pipeline [2:10], and policy transfer [2:45].
-* **Soft Robot Proprioception:** ([Video](https://youtu.be/O9ShNYuJ7lA)) Presents a method using modified resistive flex sensors [0:05] with FEM modeling and some machine learning [0:13] to enhance shape and force estimation in soft robots, demonstrated on soft strips and soft fingers [5:27].
-* **Marker-less Aerial Grasping:** ([Video](https://youtu.be/6hbhAT4l90w)) "Autonomous Marker-Less Rapid Aerial Grasping" shows a drone with soft grippers using scene segmentation [0:19] and grasp planning [0:28] for high-speed grasping without object markers [0:16].
-* **Faive Hand Dexterity Demo:** ([Video](https://youtu.be/D04BbNkEeQY)) "Robot serves beer – ETH Zurich" shows a robot hand pouring beer [0:12], manipulating a Rubik's Cube [0:35], typing [1:51], playing piano [1:59], and handling an egg [2:17].
+#### Dexterous Hand Policy Learning
+<div align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YahsMhqNU8o" frameborder="0" allowfullscreen></iframe>
+</div>
+Overview of our Humanoids 2023 paper *Getting the Ball Rolling*, showing a tendon-driven hand trained in simulation with reinforcement learning and then transferred to hardware for in-hand ball rolling.
+
+#### Soft Robot Proprioception
+<div align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/O9ShNYuJ7lA" frameborder="0" allowfullscreen></iframe>
+</div>
+Demonstrates our RA-L 2023 approach combining multi-tap resistive sensing with FEM-based modeling to estimate the shape and forces of soft manipulators.
+
+#### Marker-less Aerial Grasping
+<div align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6hbhAT4l90w" frameborder="0" allowfullscreen></iframe>
+</div>
+Shows the IROS 2023 work on autonomous aerial grasping with a drone-mounted soft gripper. The system performs onboard segmentation and rapid grasp planning without requiring object markers.
+
+#### Faive Hand Dexterity Demo
+<div align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/D04BbNkEeQY" frameborder="0" allowfullscreen></iframe>
+</div>
+Compilation of the Faive soft hand performing everyday tasks—pouring beer, solving a Rubik's Cube, typing, playing piano and gently handling an egg.
 
 ### Hackathon Projects
 
-* **LePuppet - Emotional AI Robot:** ([Video](https://youtu.be/syFgAS3iIds)) Developed at the Mistral & Hugging Face Hackathon [0:03], this AI sock puppet explores emotional expression through motion [0:51], showcasing its system architecture [1:09] and manipulation abilities [1:45].
+#### LePuppet - Emotional AI Robot
+<div align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/syFgAS3iIds" frameborder="0" allowfullscreen></iframe>
+</div>
+Weekend hackathon project exploring generative AI for a sock puppet that talks and moves expressively.
 
 ### Dexai Robotics - Kitchen Automation
 
 In the following projects, I worked primarily on the multi-robot motion planning, tool changing, and parts of the vision and learning pipeline.
 
-* **Alfred Sous-Chef - Poke Bowl:** ([Video](https://youtu.be/lIPlB6o3GOk)) Shows Alfred assembling a poke bowl, adding ingredients like rice [0:12], tuna [0:45], greens [1:32], and sauces [0:48].
-* **Alfred Sous-Chef - Salad Assembly:** ([Video](https://youtu.be/Wi8pfES5G4M)) Alfred automatically assembles and packages a salad, including bowl pickup [0:10], adding ingredients [0:17], lidding [0:19], and labeling [0:21].
-* **Multi-Robot Salad Team:** ([Video](https://youtu.be/J-CKkFbwH10)) "Team of 4 Alfred robots assemble a salad" demonstrates four robots collaborating to add lettuce [0:04], tuna [0:16], cheese/noodles [0:38], and dressing [0:52].
+#### Alfred Sous-Chef - Poke Bowl
+<div align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lIPlB6o3GOk" frameborder="0" allowfullscreen></iframe>
+</div>
+Alfred prepares a poke bowl end to end—dispensing rice, fish, greens and sauces while switching tools.
+
+#### Alfred Sous-Chef - Salad Assembly
+<div align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Wi8pfES5G4M" frameborder="0" allowfullscreen></iframe>
+</div>
+Demonstrates the robot's full salad assembly pipeline: bowl pickup, ingredient dispensing, lidding and labeling.
+
+#### Multi-Robot Salad Team
+<div align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/J-CKkFbwH10" frameborder="0" allowfullscreen></iframe>
+</div>
+Four Alfred robots coordinate to prepare a single salad order together.
 
 ---
 
@@ -93,4 +127,4 @@ My primary research areas include:
 
 ---
 
-<small>Last updated: May 2025. Theme: Midnight.</small>
+<small>Last updated: May 2025. Theme: Cayman.</small>
