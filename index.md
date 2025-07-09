@@ -4,7 +4,7 @@ layout: default # Uses the default layout from the Midnight theme
 ---
 
 
-[Email](mailto:bcangan@ethz.ch) | [Website](https://bgav.in) | [LinkedIn](https://www.linkedin.com/in/cangan/) | [Google Scholar](https://scholar.google.com/citations?user=CJVIl-0AAAAJ&hl=en) | [Twitter/X](https://x.com/gavincangan) | [GitHub](https://github.com/gavincangan) | [Anonymous feedback](https://www.admonymous.co/gavin)
+[Email](mailto:bcangan@ethz.ch) | [Website](https://bgav.in) | [LinkedIn](https://www.linkedin.com/in/cangan/) | [Google Scholar](https://scholar.google.com/citations?user=CJVIl-0AAAAJ&hl=en) | [Twitter/X](https://x.com/gavincangan) | [GitHub](https://github.com/gavincangan) | [Anonymous feedback](https://feedback.bgav.in)
 
 ![Gavin Cangan](https://github.com/gavincangan.png){: width="200px" style="border-radius:50%;"}
 
