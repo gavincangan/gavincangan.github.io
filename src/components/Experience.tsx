@@ -28,12 +28,12 @@ const experience = [
     company: "Mimic Robotics",
     period: "Apr 2024 - Present",
     type: "Part-Time",
-    location: "Remote"
+    location: "Zürich, Switzerland"
   },
   {
     title: "PhD Candidate",
     company: "ETH Zürich - Soft Robotics Lab",
-    period: "Aug 2021 - Expected 2025",
+    period: "Aug 2021 - Present (Expected 2025)",
     type: "Research",
     location: "Zürich, Switzerland"
   },
@@ -61,9 +61,16 @@ const experience = [
   {
     title: "Software Engineer",
     company: "Bosch",
-    period: "Jun 2014 - Jun 2017",
+    period: "Jun 2016 - Jul 2017",
     type: "Full-Time",
-    location: "Bangalore, India"
+    location: "Michigan, USA"
+  },
+  {
+    title: "Software Engineer",
+    company: "Bosch",
+    period: "Jun 2014 - Jul 2016",
+    type: "Full-Time",
+    location: "Coimbatore, India"
   }
 ];
 
