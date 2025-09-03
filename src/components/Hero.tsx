@@ -19,9 +19,9 @@ const Hero = () => {
               humanist. roboticist. PhD candidate at ETH Zürich
             </p>
             <div className="flex flex-wrap justify-center gap-2 mb-8">
-              <Badge variant="secondary">Soft Robotics</Badge>
-              <Badge variant="secondary">Machine Learning</Badge>
               <Badge variant="secondary">Dexterous Manipulation</Badge>
+              <Badge variant="secondary">Soft Robotics</Badge>
+              <Badge variant="secondary">Robot Learning</Badge>
               <Badge variant="secondary">AI Research</Badge>
             </div>
           </div>
