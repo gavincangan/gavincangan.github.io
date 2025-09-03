@@ -1,6 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { ExternalLink, Mail, Globe, Github, Twitter, GraduationCap, MessageSquare } from "lucide-react";
+import { ExternalLink, Linkedin, Mail, Globe, Github, Twitter, GraduationCap, MessageSquare } from "lucide-react";
 
 const contacts = [
   {
@@ -19,7 +19,7 @@ const contacts = [
     label: "LinkedIn",
     value: "@cangan",
     href: "https://www.linkedin.com/in/cangan/",
-    icon: ExternalLink
+    icon: Linkedin
   },
   {
     label: "GitHub",
