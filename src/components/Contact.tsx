@@ -84,7 +84,7 @@ const Contact = () => {
               <h3 className="text-2xl font-semibold mb-4">Currently Based</h3>
               <p className="text-lg mb-2">🇨🇭 Zürich, Switzerland</p>
               <p className="text-muted-foreground mb-6">
-                Originally from Kanyakumari, India 🇮🇳 • Previously lived in Massachusetts, USA 🇺🇸
+                Originally from Kanyakumari, India 🇮🇳 • Previously lived in Boston, USA 🇺🇸
               </p>
               <Button size="lg" className="bg-gradient-to-r from-primary to-primary/90">
                 <a href="mailto:bcangan@ethz.ch" className="flex items-center gap-2">
