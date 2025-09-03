@@ -59,7 +59,7 @@ const projects: Project[] = [
     title: "BRCKD.ai - Lego JARVIS",
     description: "Winner of the Mimic Robotics and OpenAI weekend hackathon in Zurich: bricked.ai, a voice-driven AI agent that turns spoken ideas into LEGO mosaics—planning, sanity-checking, and directing a robot arm to build them.",
     video: "https://www.youtube.com/watch?v=pa7wHZg9YcU",
-    tags: ["Agentic AI", "OpenAI", "mimic", "Lego", "Jarvis"],
+    tags: ["Agentic AI", "OpenAI", "mimic", "Legos", "Jarvis"],
     category: "Hackathon"
   }
 ];
