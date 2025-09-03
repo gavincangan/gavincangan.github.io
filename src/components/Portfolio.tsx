@@ -1,9 +1,18 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { Youtube } from "lucide-react";
+import { Youtube, ExternalLink } from "lucide-react";
 
-const projects = [
+interface Project {
+  title: string;
+  description: string;
+  video?: string;
+  url?: string;
+  tags: string[];
+  category: string;
+}
+
+const projects: Project[] = [
   {
     title: "Dexterous Hand Policy Learning",
     description: "Tendon-driven hand trained in simulation with reinforcement learning and transferred to hardware for in-hand ball rolling.",
@@ -73,11 +82,21 @@ const Portfolio = () => {
                     <Badge variant="outline" className="text-xs">
                       {project.category}
                     </Badge>
-                    <Button variant="ghost" size="sm" asChild>
-                      <a href={project.video} target="_blank" rel="noopener noreferrer">
-                        <Youtube className="w-4 h-4" />
-                      </a>
-                    </Button>
+                    {(project.video || project.url) && (
+                      <Button variant="ghost" size="sm" asChild>
+                        <a
+                          href={project.video ?? project.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
+                          {project.video ? (
+                            <Youtube className="w-4 h-4" />
+                          ) : (
+                            <ExternalLink className="w-4 h-4" />
+                          )}
+                        </a>
+                      </Button>
+                    )}
                   </div>
                   <CardTitle className="text-lg leading-tight">{project.title}</CardTitle>
                 </CardHeader>
