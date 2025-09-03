@@ -5,6 +5,34 @@ import { ExternalLink } from "lucide-react";
 
 const publications = [
   {
+    title: "ORCA: An Open-Source, Reliable, Cost-Effective, Anthropomorphic Robotic Hand for Uninterrupted Dexterous Task Learning",
+    authors: "C. C. Christoph, M. Eberlein, F. Katsimalis, A. Roberti, A. Sympetheros, M. R. Vogt, D. Liconti, C. Yang, B. G. Cangan, R. J. Hinchet, and others",
+    venue: "arXiv (accepted at ICRA 2025)",
+    year: "2025",
+    type: "Preprint"
+  },  
+  {
+    title: "Model-Based Capacitive Touch Sensing in Soft Robotics: Achieving Robust Tactile Interactions for Artistic Applications",
+    authors: "C. S. Plata, C. Rosel,  B. G. Cangan, H. Alagi, B. Hein, C. Duriez, R. K. Katzschmann, R. Fernández, Y. Mojtahedi, S. E. Navarro",
+    venue: "IEEE Robotics and Automation Letters",
+    year: "2025",
+    type: "Journal"
+  },
+  {
+    title: "Vision-based online key point estimation of deformable robots",
+    authors: "H. Zheng, S. Pinzello, B. G. Cangan, T. J. Buchner, and R. K. Katzschmann",
+    venue: "Advanced Intelligent Systems",
+    year: "2024",
+    type: "Journal"
+  },
+  {
+    title: "Task-defined pulley design for nonlinearly coupled tendon-driven actuation",
+    authors: "W. Zhang†, B. G. Cangan†, T. Buchner, A. M. Kübler, R. Asmus, and R. K. Katzschmann",
+    venue: "2024 7th IEEE-RAS International Conference on Soft Robotics (RoboSoft)",
+    year: "2024",
+    type: "Conference"
+  },
+  {
     title: "Autonomous marker-less rapid aerial grasping",
     authors: "E. Bauer, B. G. Cangan, and R. K. Katzschmann",
     venue: "2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
@@ -27,24 +55,24 @@ const publications = [
   },
   {
     title: "Multi-tap resistive sensing and fem modeling enables shape and force estimation in soft robots",
-    authors: "S. Tian, B. G. Cangan, S. E. Navarro, A. Beger, C. Duriez, and R. K. Katzschmann",
+    authors: "S. Tian†, B. G. Cangan†, S. E. Navarro, A. Beger, C. Duriez, and R. K. Katzschmann",
     venue: "IEEE Robotics and Automation Letters",
     year: "2023",
     type: "Journal"
   },
   {
-    title: "Task-defined pulley design for nonlinearly coupled tendon-driven actuation",
-    authors: "W. Zhang†, B. G. Cangan†, T. Buchner, A. M. Kübler, R. Asmus, and R. K. Katzschmann",
-    venue: "2024 7th IEEE-RAS International Conference on Soft Robotics (RoboSoft)",
-    year: "2024",
+    title: "Autonomous marker-less rapid aerial grasping",
+    authors: "E. Bauer, B. G. Cangan, and R. K. Katzschmann",
+    venue: "2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+    year: "2023",
     type: "Conference"
   },
   {
-    title: "Vision-based online key point estimation of deformable robots",
-    authors: "H. Zheng, S. Pinzello, B. G. Cangan, T. J. Buchner, and R. K. Katzschmann",
-    venue: "Advanced Intelligent Systems",
-    year: "2024",
-    type: "Journal"
+    title: "Model-based disturbance estimation for a fiber-reinforced soft manipulator using orientation sensing",
+    authors: "B. G. Cangan†, S. E. Navarro†, B. Yang, Y. Zhang, C. Duriez, and R. K. Katzschmann",
+    venue: "2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+    year: "2022",
+    type: "Conference"
   }
 ];
 
