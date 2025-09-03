@@ -22,6 +22,10 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run build
+      - name: Install PNG tooling (librsvg)
+        run: sudo apt-get update && sudo apt-get install -y librsvg2-bin
+      - name: Generate Apple touch icon PNG
+        run: rsvg-convert -w 180 -h 180 -o dist/apple-touch-icon.png public/safari-pinned-tab.svg
       - name: Add SPA 404 fallback
         run: cp dist/index.html dist/404.html
       - uses: actions/upload-pages-artifact@v3
