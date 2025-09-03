@@ -50,7 +50,7 @@ const projects: Project[] = [
   },
   {
     title: "LePuppet - Emotional AI Robot",
-    description: "Weekend hackathon finalist at the Mistral and Entrepreneurs First event in Paris: a generative-AI sock puppet that talks and moves with expressive, real-time sync.",
+    description: "Weekend hackathon finalist at the Mistral and Entrepreneurs First event in Paris: a generative-AI sock puppet robot that talks and moves with expressive, real-time sync.",
     video: "https://www.youtube.com/watch?v=syFgAS3iIds",
     tags: ["Generative AI", "HRI", "HuggingFace", "Mistral"],
     category: "Hackathon"
