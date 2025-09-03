@@ -14,7 +14,7 @@ const publications = [
   {
     title: "Model-Based Capacitive Touch Sensing in Soft Robotics: Achieving Robust Tactile Interactions for Artistic Applications",
     authors: "C. S. Plata, C. Rosel,  B. G. Cangan, H. Alagi, B. Hein, C. Duriez, R. K. Katzschmann, R. Fernández, Y. Mojtahedi, S. E. Navarro",
-    venue: "IEEE Robotics and Automation Letters",
+    venue: "IEEE Robotics and Automation Letters (RA-L)",
     year: "2025",
     type: "Journal"
   },
@@ -56,7 +56,7 @@ const publications = [
   {
     title: "Multi-tap resistive sensing and fem modeling enables shape and force estimation in soft robots",
     authors: "S. Tian†, B. G. Cangan†, S. E. Navarro, A. Beger, C. Duriez, and R. K. Katzschmann",
-    venue: "IEEE Robotics and Automation Letters",
+    venue: "IEEE Robotics and Automation Letters (RA-L)",
     year: "2023",
     type: "Journal"
   },
