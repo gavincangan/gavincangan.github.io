@@ -26,8 +26,8 @@ const About = () => {
                 
                 <p>
                   Originally from Kanyakumari, at the southern tip of India, I've lived and worked in the U.S. 
-                  and Switzerland. I quite like the Feynman approach to learning: understand deeply, explain 
-                  clearly, and don't bluff.
+                  and Switzerland. I try to learn the Feynman way: stay curious, ask simple questions, explain
+                  ideas clearly, and say “I don't know” when I don't, so I can then find out.
                 </p>
               </div>
             </CardContent>
