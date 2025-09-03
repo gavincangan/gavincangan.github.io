@@ -16,7 +16,7 @@ const Hero = () => {
               Barnabas Gavin Cangan
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-6">
-              Roboticist & PhD Candidate at ETH Zürich
+              humanist. roboticist. PhD candidate at ETH Zürich
             </p>
             <div className="flex flex-wrap justify-center gap-2 mb-8">
               <Badge variant="secondary">Soft Robotics</Badge>
