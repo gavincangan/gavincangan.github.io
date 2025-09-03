@@ -61,16 +61,9 @@ const experience = [
   {
     title: "Software Engineer",
     company: "Bosch",
-    period: "Jun 2016 - Jul 2017",
+    period: "Jun 2014 - Jul 2017",
     type: "Full-Time",
-    location: "Michigan, USA"
-  },
-  {
-    title: "Software Engineer",
-    company: "Bosch",
-    period: "Jun 2014 - Jul 2016",
-    type: "Full-Time",
-    location: "Coimbatore, India"
+    location: "Michigan, USA / Coimbatore, India"
   }
 ];
 
