@@ -9,11 +9,11 @@ const Hero = () => {
           <div className="mb-8">
             <img
               src={`${import.meta.env.BASE_URL}lovable-uploads/8dc20bbe-b45e-4b7d-b31a-e5988e36a616.png`}
-              alt="Gavin Cangan"
+              alt="Barnabas Gavin Cangan"
               className="w-48 h-48 rounded-full mx-auto mb-6 shadow-elegant object-cover"
             />
             <h1 className="text-5xl md:text-7xl font-bold mb-4 bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent">
-              Gavin Cangan
+              Barnabas Gavin Cangan
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-6">
               Roboticist & PhD Candidate at ETH Zürich
