@@ -52,14 +52,14 @@ const projects: Project[] = [
     title: "LePuppet - Emotional AI Robot",
     description: "Weekend hackathon finalist at the Mistral and Entrepreneurs First event in Paris: a generative-AI sock puppet that talks and moves with expressive, real-time sync.",
     video: "https://www.youtube.com/watch?v=syFgAS3iIds",
-    tags: ["Generative AI", "HRI", "Hackathon", "LeRobot", "HuggingFace", "Mistral", "EntrepreneursFirst"],
+    tags: ["Generative AI", "HRI", "HuggingFace", "Mistral"],
     category: "Hackathon"
   },
   {
     title: "BRCKD.ai - Lego JARVIS",
     description: "Winner of the Mimic Robotics and OpenAI weekend hackathon in Zurich: bricked.ai, a voice-driven AI agent that turns spoken ideas into LEGO mosaics—planning, sanity-checking, and directing a robot arm to build them.",
     video: "https://www.youtube.com/watch?v=pa7wHZg9YcU",
-    tags: ["Generative AI", "HRI", "Hackathon", "OpenAI", "mimic", "Loki", "Agentic AI", "Lego", "Jarvis", "ElevenLabs"],
+    tags: ["Agentic AI", "OpenAI", "mimic", "Lego", "Jarvis"],
     category: "Hackathon"
   }
 ];
