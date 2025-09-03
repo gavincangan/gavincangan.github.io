@@ -1,7 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { ExternalLink } from "lucide-react";
+import { Youtube } from "lucide-react";
 
 const projects = [
   {
@@ -75,7 +75,7 @@ const Portfolio = () => {
                     </Badge>
                     <Button variant="ghost" size="sm" asChild>
                       <a href={project.video} target="_blank" rel="noopener noreferrer">
-                        <ExternalLink className="w-4 h-4" />
+                        <Youtube className="w-4 h-4" />
                       </a>
                     </Button>
                   </div>
