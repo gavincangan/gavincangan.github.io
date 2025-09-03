@@ -3,13 +3,13 @@ import { Badge } from "@/components/ui/badge";
 
 const education = [
   {
-    degree: "PhD, Mechanical and Process Engineering",
+    degree: "PhD, Robotics",
     institution: "ETH Zürich",
     year: "Expected 2025",
     location: "Zürich, Switzerland"
   },
   {
-    degree: "M.S., Electrical and Electronics Engineering",
+    degree: "M.S., Electrical Engineering",
     institution: "Virginia Tech",
     year: "2019",
     location: "Virginia, USA"
