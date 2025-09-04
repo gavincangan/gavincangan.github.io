@@ -26,42 +26,42 @@ const experience = [
   {
     title: "Founding Roboticist/Consultant",
     company: "Mimic Robotics",
-    period: "Apr 2024 - Present",
+    period: "2024 - Present",
     type: "Part-Time",
     location: "Zürich, Switzerland"
   },
   {
     title: "PhD Candidate",
     company: "ETH Zürich - Soft Robotics Lab",
-    period: "Aug 2021 - Present (Expected 2025)",
+    period: "2021 - Present (Expected 2025)",
     type: "Research",
     location: "Zürich, Switzerland"
   },
   {
     title: "Robotics Engineer",
     company: "Dexai Robotics",
-    period: "Aug 2019 - Aug 2021",
+    period: "2019 - 2021",
     type: "Full-Time",
     location: "Boston, USA"
   },
   {
     title: "Research Assistant",
-    company: "Virginia Tech (Path Planning / ML)",
-    period: "Feb 2018 - Jul 2019",
+    company: "Virginia Tech (ML / Path Planning)",
+    period: "2018 - 2019",
     type: "Research",
     location: "Virginia, USA"
   },
   {
     title: "Engineering Intern",
     company: "Virginia Tech Transportation Institute",
-    period: "Feb 2018 - May 2018",
+    period: "2018 (~4 months)",
     type: "Internship",
     location: "Virginia, USA"
   },
   {
     title: "Software Engineer",
     company: "Bosch",
-    period: "Jun 2014 - Jul 2017",
+    period: "2014 - 2017",
     type: "Full-Time",
     location: "Michigan, USA / Coimbatore, India"
   }
