@@ -7,7 +7,7 @@ const publications = [
   {
     title: "ORCA: An Open-Source, Reliable, Cost-Effective, Anthropomorphic Robotic Hand for Uninterrupted Dexterous Task Learning",
     authors: "C. C. Christoph, M. Eberlein, F. Katsimalis, A. Roberti, A. Sympetheros, M. R. Vogt, D. Liconti, C. Yang, B. G. Cangan, R. J. Hinchet, and others",
-    venue: "arXiv (accepted at ICRA 2025)",
+    venue: "arXiv (accepted at IROS 2025)",
     year: "2025",
     type: "Preprint"
   },  
