@@ -43,8 +43,8 @@ const projects: Project[] = [
   },
   {
     title: "Alfred Sous-Chef - Kitchen Automation",
-    description: "Multi-robot motion planning and tool changing for automated food preparation. End-to-end poke bowl and salad assembly.",
-    video: "https://www.youtube.com/watch?v=lIPlB6o3GOk",
+    description: "Multi-robot motion planning and tool changing for automated food preparation. End-to-end salad assembly.",
+    video: "https://www.youtube.com/watch?v=Wi8pfES5G4M",
     tags: ["Motion Planning", "Multi-Robot", "Food Automation"],
     category: "Dexai Robotics"
   },
