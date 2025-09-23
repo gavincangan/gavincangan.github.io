@@ -42,6 +42,13 @@ const projects: Project[] = [
     category: "ETH Research"
   },
   {
+    title: "Coupled Actuation for Tendon Robots",
+    description: "Task-defined non-linear tendon coupling achieved via custom eccentric pulley shaping, enabling single-actuator control of multi-DOF systems.",
+    video: "https://www.youtube.com/watch?v=snvoP92icfA",
+    tags: ["Coupled Actuation", "Tendon-Driven", "Nonlinear"],
+    category: "ETH Research"
+  },
+  {
     title: "Alfred Sous-Chef - Kitchen Automation",
     description: "Multi-robot motion planning and tool changing for automated food preparation. End-to-end salad assembly.",
     video: "https://www.youtube.com/watch?v=Wi8pfES5G4M",
