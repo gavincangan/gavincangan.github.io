@@ -28,8 +28,8 @@ const projects: Project[] = [
     category: "ETH Research"
   },
   {
-    title: "Marker-less Aerial Grasping",
-    description: "Autonomous aerial grasping with drone-mounted soft gripper. Onboard segmentation and rapid grasp planning without object markers.",
+    title: "Markerless Aerial Grasping",
+    description: "Autonomous aerial grasping with a drone-mounted soft gripper. Onboard segmentation and rapid grasp planning without object markers.",
     video: "https://www.youtube.com/watch?v=6hbhAT4l90w",
     tags: ["Computer Vision", "Autonomous Systems", "Aerial Robotics"],
     category: "ETH Research"

@@ -13,7 +13,7 @@ const publications = [
   },  
   {
     title: "Model-Based Capacitive Touch Sensing in Soft Robotics: Achieving Robust Tactile Interactions for Artistic Applications",
-    authors: "C. S. Plata, C. Rosel,  B. G. Cangan, H. Alagi, B. Hein, C. Duriez, R. K. Katzschmann, R. Fernández, Y. Mojtahedi, S. E. Navarro",
+    authors: "C. S. Plata, C. Rosel, B. G. Cangan, H. Alagi, B. Hein, C. Duriez, R. K. Katzschmann, R. Fernández, Y. Mojtahedi, S. E. Navarro",
     venue: "IEEE Robotics and Automation Letters (RA-L)",
     year: "2025",
     type: "Journal"
@@ -54,18 +54,11 @@ const publications = [
     type: "Conference"
   },
   {
-    title: "Multi-tap resistive sensing and fem modeling enables shape and force estimation in soft robots",
+    title: "Multi-tap resistive sensing and FEM modeling enable shape and force estimation in soft robots",
     authors: "S. Tian†, B. G. Cangan†, S. E. Navarro, A. Beger, C. Duriez, and R. K. Katzschmann",
     venue: "IEEE Robotics and Automation Letters (RA-L)",
     year: "2023",
     type: "Journal"
-  },
-  {
-    title: "Autonomous marker-less rapid aerial grasping",
-    authors: "E. Bauer, B. G. Cangan, and R. K. Katzschmann",
-    venue: "2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
-    year: "2023",
-    type: "Conference"
   },
   {
     title: "Model-based disturbance estimation for a fiber-reinforced soft manipulator using orientation sensing",

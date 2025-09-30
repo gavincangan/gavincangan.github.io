@@ -37,13 +37,13 @@ const About = () => {
             <Card className="shadow-elegant">
               <CardContent className="p-6">
                 <h3 className="text-xl font-semibold mb-4 text-primary">Research Interests</h3>
-                <ul className="space-y-2">
-                  <li>• Dexterous Manipulation</li>
-                  <li>• Robot Learning</li>
-                  <li>• Model-based Sensing</li>
-                  <li>• Vision-based Reconstruction</li>
-                  <li>• Human-Robot Interaction</li>
-                  <li>• Path Planning</li>
+                <ul className="space-y-2 list-disc list-inside">
+                  <li>Dexterous Manipulation</li>
+                  <li>Robot Learning</li>
+                  <li>Model-based Sensing</li>
+                  <li>Vision-based Reconstruction</li>
+                  <li>Human-Robot Interaction</li>
+                  <li>Path Planning</li>
                 </ul>
               </CardContent>
             </Card>
