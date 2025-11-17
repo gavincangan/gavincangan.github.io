@@ -4,22 +4,26 @@ import { Badge } from "@/components/ui/badge";
 import { ExternalLink } from "lucide-react";
 
 interface Patent {
-  id: string;
-  url: string;
+  ids: string[]; // one or more related publication IDs
+  links: { label: string; url: string }[]; // e.g., WO / EP links
   summary: string; // short, human-friendly title
   affiliation?: string;
 }
 
 const patents: Patent[] = [
   {
-    id: "WO2025027207A1",
-    url: "https://patents.google.com/patent/WO2025027207A1/en",
+    ids: ["WO2025027207A1"],
+    links: [
+      { label: "WO", url: "https://patents.google.com/patent/WO2025027207A1/en" },
+    ],
     summary: "Differential tendon-driven rolling-contact finger joint",
     affiliation: "ETH Zürich",
   },
   {
-    id: "EP4501556A1",
-    url: "https://patents.google.com/patent/EP4501556A1/en",
+    ids: ["WO2025027206A1"],
+    links: [
+      { label: "WO", url: "https://patents.google.com/patent/WO2025027206A1/en" },
+    ],
     summary: "Non-planar rolling-contact finger joint design",
     affiliation: "ETH Zürich",
   },
@@ -44,26 +48,32 @@ const Patents = () => {
                       {pat.affiliation && (
                         <Badge variant="secondary">{pat.affiliation}</Badge>
                       )}
-                      <Badge variant="outline">{pat.id.startsWith("WO") ? "WO" : pat.id.startsWith("EP") ? "EP" : "Patent"}</Badge>
+                      {pat.links.map((l, i) => (
+                        <Badge key={i} variant="outline">{l.label}</Badge>
+                      ))}
                     </div>
                     <h3 className="text-lg font-semibold truncate">
                       {pat.summary}
                     </h3>
                     <p className="text-xs text-muted-foreground mt-1 truncate">
-                      ID: {pat.id}
+                      IDs: {pat.ids.join(" · ")}
                     </p>
                   </div>
-                  <Button variant="outline" asChild>
-                    <a
-                      href={pat.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center gap-2"
-                    >
-                      <ExternalLink className="w-4 h-4" />
-                      View
-                    </a>
-                  </Button>
+                  <div className="flex flex-wrap gap-2 shrink-0">
+                    {pat.links.map((l, i) => (
+                      <Button key={i} variant="outline" asChild>
+                        <a
+                          href={l.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex items-center gap-2"
+                        >
+                          <ExternalLink className="w-4 h-4" />
+                          {l.label}
+                        </a>
+                      </Button>
+                    ))}
+                  </div>
                 </CardContent>
               </Card>
             ))}
