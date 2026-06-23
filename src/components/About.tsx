@@ -11,9 +11,9 @@ const About = () => {
             <CardContent className="p-8">
               <div className="space-y-6 text-lg leading-relaxed">
                 <p>
-                  I am a roboticist and PhD candidate at ETH Zürich, working at the intersection of sensing, 
-                  control, and learning for dexterous manipulation using soft robots. My focus is on giving 
-                  robots the kind of proprioception and feedback humans take for granted through a mix of 
+                  I am a roboticist with a PhD from ETH Zürich, working at the intersection of sensing,
+                  control, and learning for dexterous manipulation using soft robots. My focus is on giving
+                  robots the kind of proprioception and feedback humans take for granted through a mix of
                   modeling, machine learning, and good old creative engineering.
                 </p>
                 
@@ -53,14 +53,14 @@ const About = () => {
                 <h3 className="text-xl font-semibold mb-4 text-primary">Current Role</h3>
                 <div className="space-y-3">
                   <div>
-                    <p className="font-medium">PhD Candidate</p>
-                    <p className="text-sm text-muted-foreground">ETH Zürich • Soft Robotics Lab</p>
-                    <p className="text-sm text-muted-foreground">Expected 2025</p>
+                    <p className="font-medium">AI Engineer — VLA & Dexterous Manipulation</p>
+                    <p className="text-sm text-muted-foreground">Flexion Robotics</p>
+                    <p className="text-sm text-muted-foreground">Dec 2025 – Present</p>
                   </div>
                   <div>
-                    <p className="font-medium">Founding Roboticist/Consultant</p>
-                    <p className="text-sm text-muted-foreground">Mimic Robotics • Part-Time</p>
-                    <p className="text-sm text-muted-foreground">Apr 2024 - Present</p>
+                    <p className="font-medium">PhD, Soft Robotics Lab</p>
+                    <p className="text-sm text-muted-foreground">ETH Zürich</p>
+                    <p className="text-sm text-muted-foreground">Def. Nov 2025</p>
                   </div>
                 </div>
               </CardContent>

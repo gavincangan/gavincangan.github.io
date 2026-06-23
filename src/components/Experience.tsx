@@ -5,7 +5,7 @@ const education = [
   {
     degree: "PhD, Robotics",
     institution: "ETH Zürich",
-    year: "Expected 2025",
+    year: "Def. Nov 2025",
     location: "Zürich, Switzerland"
   },
   {
@@ -24,16 +24,23 @@ const education = [
 
 const experience = [
   {
+    title: "AI Engineer — VLA & Dexterous Manipulation",
+    company: "Flexion Robotics",
+    period: "Dec 2025 – Present",
+    type: "Full-Time",
+    location: "Zürich, Switzerland"
+  },
+  {
     title: "Founding Roboticist/Consultant",
     company: "Mimic Robotics",
-    period: "2024 - Present",
+    period: "Apr 2024 – Nov 2025",
     type: "Part-Time",
     location: "Zürich, Switzerland"
   },
   {
-    title: "PhD Candidate",
-    company: "ETH Zürich - Soft Robotics Lab",
-    period: "2021 - Present (Expected 2025)",
+    title: "PhD, Soft Robotics Lab",
+    company: "ETH Zürich",
+    period: "2021 – 2025",
     type: "Research",
     location: "Zürich, Switzerland"
   },
