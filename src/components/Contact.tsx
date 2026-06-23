@@ -81,7 +81,7 @@ const Contact = () => {
           </div>
 
           <div className="flex justify-center mb-12">
-            <Card className="shadow-elegant hover:shadow-lg transition-all duration-300 hover:scale-105 w-64">
+            <Card className="shadow-elegant hover:shadow-lg transition-all duration-300 hover:scale-105 w-full lg:w-1/3">
               <CardContent className="p-6">
                 <a
                   href={feedbackLink.href}
