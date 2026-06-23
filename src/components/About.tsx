@@ -11,10 +11,9 @@ const About = () => {
             <CardContent className="p-8">
               <div className="space-y-6 text-lg leading-relaxed">
                 <p>
-                  I am a roboticist with a PhD from ETH Zürich, working at the intersection of sensing,
-                  control, and learning for dexterous manipulation using soft robots. My focus is on giving
-                  robots the kind of proprioception and feedback humans take for granted through a mix of
-                  modeling, machine learning, and good old creative engineering.
+                  Building learning-based manipulation policies for humanoid systems at Flexion Robotics.
+                  Roboticist with a PhD from ETH Zürich in dexterous manipulation, and model-based
+                  proprioception and tactile sensing.
                 </p>
                 
                 <p>

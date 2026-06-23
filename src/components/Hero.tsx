@@ -27,9 +27,8 @@ const Hero = () => {
           </div>
           
           <p className="text-lg md:text-xl text-foreground/80 mb-8 max-w-3xl mx-auto leading-relaxed">
-            Working at the intersection of sensing, control, and learning for dexterous manipulation using soft robots. 
-            Giving robots the kind of proprioception and feedback humans take for granted through modeling, 
-            machine learning, and creative engineering.
+            Building learning-based manipulation policies for humanoid systems at Flexion Robotics.
+            Roboticist with a PhD from ETH Zürich in dexterous manipulation, and model-based proprioception and tactile sensing.
           </p>
           
           <div className="flex flex-wrap justify-center gap-4">
