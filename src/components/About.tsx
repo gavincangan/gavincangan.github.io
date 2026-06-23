@@ -11,7 +11,7 @@ const About = () => {
             <CardContent className="p-8">
               <div className="space-y-6 text-lg leading-relaxed">
                 <p>
-                  Building learning-based manipulation policies for humanoids at Flexion Robotics.
+                  Building dexterous manipulation policies for humanoids at Flexion Robotics, with a focus on real-world deployability and on-device performance.
                   Roboticist with a PhD from ETH Zürich in dexterous manipulation, and model-based
                   proprioception and tactile sensing.
                 </p>

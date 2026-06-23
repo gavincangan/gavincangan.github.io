@@ -27,7 +27,7 @@ const Hero = () => {
           </div>
           
           <p className="text-lg md:text-xl text-foreground/80 mb-8 max-w-3xl mx-auto leading-relaxed">
-            Building learning-based manipulation policies for humanoids at Flexion Robotics.
+            Building manipulation policies for humanoids at Flexion Robotics.
             Roboticist with a PhD from ETH Zürich in dexterous manipulation, and model-based proprioception and tactile sensing.
           </p>
           
