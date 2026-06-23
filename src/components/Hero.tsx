@@ -38,7 +38,7 @@ const Hero = () => {
               </a>
             </Button>
             <Button variant="outline" size="lg">
-              <a href="mailto:bcangan@ethz.ch" className="flex items-center gap-2">
+              <a href="#contact" className="flex items-center gap-2">
                 Get in Touch
               </a>
             </Button>
