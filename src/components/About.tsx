@@ -19,7 +19,7 @@ const About = () => {
                 <p>
                   I have worked across academia, industry, and startups: from safety-critical software at Bosch
                   and production robotics at Dexai, and hacking a Ford van for fun at VTTI, to founding
-                  research at a venture-backed robotics startup (2 awarded patents, 2.5M USD pre-seed), and
+                  research at a venture-backed robotics startup <em>(2 awarded patents, 2.5M USD pre-seed)</em>, and
                   now building manipulation policies for humanoids at Flexion. I like working at the
                   boundary between research and deployment, where ideas have to survive contact with real
                   hardware.
