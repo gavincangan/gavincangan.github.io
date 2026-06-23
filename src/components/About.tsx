@@ -40,11 +40,10 @@ const About = () => {
                 <h3 className="text-xl font-semibold mb-4 text-primary">Research Interests</h3>
                 <ul className="space-y-2 list-disc list-inside">
                   <li>Dexterous Manipulation</li>
-                  <li>Robot Learning</li>
-                  <li>Model-based Sensing</li>
-                  <li>Vision-based Reconstruction</li>
-                  <li>Human-Robot Interaction</li>
-                  <li>Path Planning</li>
+                  <li>Tactile & Proprioceptive Sensing</li>
+                  <li>Sim-to-Real Transfer</li>
+                  <li>On-device Policy Deployment</li>
+                  <li>Physical AI Systems</li>
                 </ul>
               </CardContent>
             </Card>
