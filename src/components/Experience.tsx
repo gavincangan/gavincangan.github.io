@@ -110,7 +110,7 @@ const Experience = () => {
                     <CardContent className="p-6">
                       <div className="flex justify-between items-start mb-2">
                         <h4 className="font-semibold text-lg">{exp.title}</h4>
-                        <Badge variant={exp.type === "Research" ? "default" : "secondary"} className="text-xs">
+                        <Badge variant={exp.type === "Research" ? "default" : "secondary"} className="text-xs whitespace-nowrap shrink-0">
                           {exp.type}
                         </Badge>
                       </div>
