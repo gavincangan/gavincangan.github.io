@@ -20,9 +20,9 @@ const Hero = () => {
             </p>
             <div className="flex flex-wrap justify-center gap-2 mb-8">
               <Badge variant="secondary">Dexterous Manipulation</Badge>
-              <Badge variant="secondary">Soft Robotics</Badge>
-              <Badge variant="secondary">Robot Learning</Badge>
-              <Badge variant="secondary">AI Research</Badge>
+              <Badge variant="secondary">Tactile & Proprioceptive Sensing</Badge>
+              <Badge variant="secondary">Edge Deployment</Badge>
+              <Badge variant="secondary">Physical AI</Badge>
             </div>
           </div>
           
