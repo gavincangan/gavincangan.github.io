@@ -26,11 +26,6 @@ const Hero = () => {
             </div>
           </div>
           
-          <p className="text-lg md:text-xl text-foreground/80 mb-8 max-w-3xl mx-auto leading-relaxed">
-            Building manipulation policies for humanoids at Flexion Robotics.
-            Roboticist with a PhD from ETH Zürich in dexterous manipulation, and model-based proprioception and tactile sensing.
-          </p>
-          
           <div className="flex flex-wrap justify-center gap-4">
             <Button size="lg" className="bg-gradient-to-r from-primary to-primary/90 hover:from-primary/90 hover:to-primary text-primary-foreground shadow-elegant">
               <a href="#portfolio" className="flex items-center gap-2">

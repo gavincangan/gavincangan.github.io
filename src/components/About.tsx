@@ -53,7 +53,7 @@ const About = () => {
                 <h3 className="text-xl font-semibold mb-4 text-primary">Current Role</h3>
                 <div className="space-y-3">
                   <div>
-                    <p className="font-medium">AI Engineer — VLA & Dexterous Manipulation</p>
+                    <p className="font-medium">AI Engineer — Dexterous Manipulation</p>
                     <p className="text-sm text-muted-foreground">Flexion Robotics</p>
                     <p className="text-sm text-muted-foreground">Dec 2025 – Present</p>
                   </div>

@@ -47,14 +47,14 @@ const experience = [
   {
     title: "Robotics Engineer",
     company: "Dexai Robotics",
-    period: "2019 - 2021",
+    period: "2019 – 2021",
     type: "Full-Time",
     location: "Boston, USA"
   },
   {
     title: "Research Assistant",
     company: "Virginia Tech (ML / Path Planning)",
-    period: "2018 - 2019",
+    period: "2018 – 2019",
     type: "Research",
     location: "Virginia, USA"
   },
@@ -68,7 +68,7 @@ const experience = [
   {
     title: "Software Engineer",
     company: "Bosch",
-    period: "2014 - 2017",
+    period: "2014 – 2017",
     type: "Full-Time",
     location: "Michigan, USA / Coimbatore, India"
   }
