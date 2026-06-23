@@ -11,16 +11,18 @@ const About = () => {
             <CardContent className="p-8">
               <div className="space-y-6 text-lg leading-relaxed">
                 <p>
-                  Building learning-based manipulation policies for humanoid systems at Flexion Robotics.
+                  Building learning-based manipulation policies for humanoids at Flexion Robotics.
                   Roboticist with a PhD from ETH Zürich in dexterous manipulation, and model-based
                   proprioception and tactile sensing.
                 </p>
                 
                 <p>
-                  I have worked across academia, industry, and startups, from writing safety-critical software 
-                  at Bosch and shipping production code at Dexai, to hacking together demos that got featured 
-                  on Swiss national television and helped kick off a venture-backed startup. I enjoy building 
-                  things that <em>feel</em> intuitive to users, to robots, or ideally, to both :)
+                  I have worked across academia, industry, and startups: from safety-critical software at Bosch
+                  and production robotics at Dexai, and hacking a Ford van for fun at VTTI, to founding
+                  research at a venture-backed robotics startup (2 awarded patents, 2.5M USD pre-seed), and
+                  now building manipulation policies for humanoids at Flexion. I like working at the
+                  boundary between research and deployment, where ideas have to survive contact with real
+                  hardware.
                 </p>
                 
                 <p>
