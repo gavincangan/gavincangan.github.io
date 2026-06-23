@@ -38,14 +38,15 @@ const contacts = [
     value: "Research Profile",
     href: "https://scholar.google.com/citations?user=CJVIl-0AAAAJ&hl=en",
     icon: GraduationCap
-  },
-  {
-    label: "Anonymous Feedback",
-    value: "feedback.bgav.in",
-    href: "https://feedback.bgav.in/",
-    icon: MessageSquare
   }
 ];
+
+const feedbackLink = {
+  label: "Anonymous Feedback",
+  value: "feedback.bgav.in",
+  href: "https://feedback.bgav.in/",
+  icon: MessageSquare
+};
 
 const Contact = () => {
   return (
@@ -58,11 +59,11 @@ const Contact = () => {
             I'd love to hear from you.
           </p>
           
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 mb-12">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 mb-6">
             {contacts.map((contact, index) => (
               <Card key={index} className="shadow-elegant hover:shadow-lg transition-all duration-300 hover:scale-105">
                 <CardContent className="p-6">
-                  <a 
+                  <a
                     href={contact.href}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -77,6 +78,25 @@ const Contact = () => {
                 </CardContent>
               </Card>
             ))}
+          </div>
+
+          <div className="flex justify-center mb-12">
+            <Card className="shadow-elegant hover:shadow-lg transition-all duration-300 hover:scale-105 w-64">
+              <CardContent className="p-6">
+                <a
+                  href={feedbackLink.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-4 text-left"
+                >
+                  <feedbackLink.icon className="w-5 h-5 text-primary flex-shrink-0" />
+                  <div>
+                    <p className="font-medium text-sm text-muted-foreground">{feedbackLink.label}</p>
+                    <p className="font-semibold text-foreground">{feedbackLink.value}</p>
+                  </div>
+                </a>
+              </CardContent>
+            </Card>
           </div>
           
           <Card className="shadow-elegant bg-gradient-to-br from-primary/5 to-accent/5">
