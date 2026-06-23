@@ -57,11 +57,6 @@ const About = () => {
                     <p className="text-sm text-muted-foreground">Flexion Robotics</p>
                     <p className="text-sm text-muted-foreground">Dec 2025 – Present</p>
                   </div>
-                  <div>
-                    <p className="font-medium">PhD, Soft Robotics Lab</p>
-                    <p className="text-sm text-muted-foreground">ETH Zürich</p>
-                    <p className="text-sm text-muted-foreground">Def. Nov 2025</p>
-                  </div>
                 </div>
               </CardContent>
             </Card>
