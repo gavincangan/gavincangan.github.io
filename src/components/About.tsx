@@ -28,7 +28,7 @@ const About = () => {
                 <p>
                   Originally from Kanyakumari, at the southern tip of India, I've lived and worked in the U.S. 
                   and Switzerland. I try to learn the Feynman way: stay curious, ask simple questions, explain
-                  ideas clearly, and say “I don't know” when I don't, so I can then find out.
+                  ideas clearly, and say <em>”I don't know”</em> when I don't, so I can then find out.
                 </p>
               </div>
             </CardContent>
