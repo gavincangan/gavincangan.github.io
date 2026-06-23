@@ -5,11 +5,18 @@ import { ExternalLink } from "lucide-react";
 
 const publications = [
   {
-    title: "ORCA: An Open-Source, Reliable, Cost-Effective, Anthropomorphic Robotic Hand for Uninterrupted Dexterous Task Learning",
-    authors: "C. C. Christoph, M. Eberlein, F. Katsimalis, A. Roberti, A. Sympetheros, M. R. Vogt, D. Liconti, C. Yang, B. G. Cangan, R. J. Hinchet, and others",
-    venue: "arXiv (accepted at IROS 2025)",
+    title: "Beyond Anthropomorphism: Enhancing Grasping and Eliminating a Degree of Freedom by Fusing the Abduction of Digits Four and Five",
+    authors: "S. Fritsch, L. Achenbach, R. Bianco, N. Irmiger, G. Marti, S. Visca, C. Yang, D. Liconti, B. G. Cangan, R. J. Malate, and R. J. Hinchet",
+    venue: "2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
     year: "2025",
-    type: "Preprint"
+    type: "Conference"
+  },
+  {
+    title: "ORCA: An Open-Source, Reliable, Cost-Effective, Anthropomorphic Robotic Hand for Uninterrupted Dexterous Task Learning",
+    authors: "C. C. Christoph, M. Eberlein, F. Katsimalis, A. Roberti, A. Sympetheros, M. R. Vogt, D. Liconti, C. Yang, B. G. Cangan, R. J. Hinchet, and R. K. Katzschmann",
+    venue: "2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+    year: "2025",
+    type: "Conference"
   },  
   {
     title: "Model-Based Capacitive Touch Sensing in Soft Robotics: Achieving Robust Tactile Interactions for Artistic Applications",
