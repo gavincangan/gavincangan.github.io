@@ -16,7 +16,7 @@ const Hero = () => {
               Barnabas Gavin Cangan
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-6">
-              humanist. roboticist. phd @ ethz. dexterous manipulation @ flexion.ai
+              humanist. roboticist. manipulation @ flexion.ai. eth zürich phd
             </p>
             <div className="flex flex-wrap justify-center gap-2 mb-8">
               <Badge variant="secondary">Dexterous Manipulation</Badge>
