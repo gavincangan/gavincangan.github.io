@@ -24,7 +24,7 @@ const education = [
 
 const experience = [
   {
-    title: "AI Engineer — VLA & Dexterous Manipulation",
+    title: "AI Engineer — Dexterous Manipulation",
     company: "Flexion Robotics",
     period: "Dec 2025 – Present",
     type: "Full-Time",
