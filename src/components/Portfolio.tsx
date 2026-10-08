@@ -15,9 +15,9 @@ interface Project {
 const projects: Project[] = [
   {
     title: "Reflect v1.0 - Humanoid Manipulation",
-    description: "Flexion's long-horizon autonomous humanoid demo on Unitree G1. I trained the manipulation policies and collected much of the teleoperation data for some of the tasks shown, and helped film the demo.",
+    description: "Flexion's long-horizon autonomous humanoid demo. I trained policies and collected data for some of the tasks shown.",
     video: "https://www.youtube.com/watch?v=6dme3JYj3Hg",
-    tags: ["Humanoids", "Whole-Body Manipulation", "Teleoperation", "On-Device Deployment"],
+    tags: ["Humanoids", "Whole-Body Manipulation", "Teleoperation"],
     category: "Flexion Robotics"
   },
   {
