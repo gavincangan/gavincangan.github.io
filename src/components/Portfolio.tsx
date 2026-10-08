@@ -14,6 +14,13 @@ interface Project {
 
 const projects: Project[] = [
   {
+    title: "Reflect v1.0 - Humanoid Manipulation",
+    description: "Flexion's long-horizon autonomous humanoid demo on Unitree G1. I trained the manipulation policies and collected much of the teleoperation data for some of the tasks shown, and helped film the demo.",
+    video: "https://www.youtube.com/watch?v=6dme3JYj3Hg",
+    tags: ["Humanoids", "Whole-Body Manipulation", "Teleoperation", "On-Device Deployment"],
+    category: "Flexion Robotics"
+  },
+  {
     title: "Dexterous Hand Policy Learning",
     description: "Tendon-driven hand trained in simulation with reinforcement learning and transferred to hardware for in-hand ball rolling.",
     video: "https://www.youtube.com/watch?v=YahsMhqNU8o",
@@ -57,9 +64,9 @@ const projects: Project[] = [
   },
   {
     title: "LePuppet - Emotional AI Robot",
-    description: "Weekend hackathon finalist at the Mistral and Entrepreneurs First event in Paris: a generative-AI sock puppet robot that talks and moves with expressive, real-time sync.",
+    description: "Weekend hackathon finalist at the Mistral × Hugging Face robotics hackathon in Paris (organized by Entrepreneurs First): a generative-AI sock puppet robot, built with LeRobot, that talks and moves with expressive, real-time sync.",
     video: "https://www.youtube.com/watch?v=syFgAS3iIds",
-    tags: ["Generative AI", "HRI", "HuggingFace", "Mistral"],
+    tags: ["Generative AI", "HRI", "LeRobot", "Mistral"],
     category: "Hackathon"
   },
   {

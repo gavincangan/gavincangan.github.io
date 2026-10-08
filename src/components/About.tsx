@@ -11,7 +11,8 @@ const About = () => {
             <CardContent className="p-8">
               <div className="space-y-6 text-lg leading-relaxed">
                 <p>
-                  Building dexterous manipulation policies for humanoids at Flexion Robotics, with a focus on real-world deployability and on-device performance.
+                  Building manipulation policies for Unitree G1 humanoids at Flexion Robotics, from teleoperation and
+                  data collection to training and on-device deployment.
                   Roboticist with a PhD from ETH Zürich in dexterous manipulation, and model-based
                   proprioception and tactile sensing.
                 </p>
@@ -39,11 +40,11 @@ const About = () => {
               <CardContent className="p-6">
                 <h3 className="text-xl font-semibold mb-4 text-primary">Research Interests</h3>
                 <ul className="space-y-2 list-disc list-inside">
-                  <li>Dexterous Manipulation</li>
-                  <li>Tactile & Proprioceptive Sensing</li>
-                  <li>Sim-to-Real Transfer</li>
+                  <li>Dexterous & Contact-rich Manipulation</li>
+                  <li>Spatial Representations for Robot Learning</li>
+                  <li>Data-efficient Policy Learning</li>
+                  <li>Teleoperation & Data Collection</li>
                   <li>On-device Policy Deployment</li>
-                  <li>Physical AI Systems</li>
                 </ul>
               </CardContent>
             </Card>
